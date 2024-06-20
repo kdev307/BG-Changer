@@ -1,0 +1,31 @@
+h1 {
+    text-align: center;
+    font-family: cursive;
+    font-size: 4rem;
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    background-image: linear-gradient(45deg, #7b00ff, #00f, #0ff, #0f0, #ff0, #ff7700, #f00);
+    background-size: 30%;
+}
+
+.color-btns-box {
+    display: flex;
+    gap: 1.8rem;
+    padding: 2rem;
+}
+
+.color-btn {
+    font-size: 2rem;
+    font-weight: 600;
+    padding: 0.8rem;
+    border: 0.15rem solid #000;
+    border-radius: 3rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.color-btn:hover {
+    background-color: #000;
+    color: #fff;
+}
